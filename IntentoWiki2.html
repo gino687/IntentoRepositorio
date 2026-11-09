@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="icon" href="carp.icon.webp" type="image/x-icon">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark fixed-top"><!--- La parte de arriba --->
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="sin_icono.png" alt="Logo" width="50" height="44" class="d-inline-block align-text-top">ESTE ES</a>
+    
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+            aria-controls="offcanvasDarkNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+            aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav> <!--- La parte de arriba --->
+
+
+  <div id="carousel-caption" class="carousel slide marginTCustom" data-bs-ride="false"><!--- Carrusel --->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carousel-caption" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carousel-caption" data-bs-slide-to="1" class="active" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carousel-caption" data-bs-slide-to="2" class="active" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="liminal_space_by_buffy2ville_dfo1uu3-fullview~2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>Alfombras</h2>
+          <p>Some representative placeholder content for the second slide.</p>
+          <p><a href="#" class="btn btn-danger mt-3">Mas Información</a> </p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="exb7gts36ex71~2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>Carpets</h2>
+          <p>Some representative placeholder content for the second slide.</p>
+          <p><a href="#" class="btn btn-danger mt-3">Mas Información</a> </p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="photo-1677024345568-35f08e403a8d.jpeg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>Teppiche</h2>
+          <p>Some representative placeholder content for the third slide.</p>
+          <p><a href="#" class="btn btn-danger mt-3">Mas Información</a> </p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-caption" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carousel-caption" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div> <!--- Carrusel --->
+  <br><br><br><br><br>
+
+  <section class="product"><!--- Productos --->
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-header text-center pb-5">
+            <h2>Productos</h2>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              <br>Minima accusamus fugit illo ipsum? Voluptate
+              reiciendis inventore.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+
+        <div class="col-12 col-md-12 col-lg-4"><!-- Producto 1 -->
+            <div class="card bg-dark shadow-sm border-0 px-2 py-3 mb-4">
+              <div class="text-center">
+                <img src="Umbreon8bit.webp" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum odio provident quod quae delectus
+                  repudiandae, veniam ea laboriosam harum ducimus ipsum quas deleniti sapiente ipsa. Soluta, ipsa?
+                  Officia, minima pariatur?
+                </p>
+                <a href="#" class="btn btn-light">Saber mas</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-12 col-lg-4"><!-- Producto 2 -->
+            <div class="card bg-dark shadow-sm border-0 px-2 py-3 mb-4">
+              <div class="text-center">
+                <img src="Murkrow8bit.webp" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum odio provident quod quae delectus
+                  repudiandae, veniam ea laboriosam harum ducimus ipsum quas deleniti sapiente ipsa. Soluta, ipsa?
+                  Officia, minima pariatur?
+                </p>
+                <a href="#" class="btn btn-light">Saber mas</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-12 col-lg-4"><!-- Producto 3 -->
+            <div class="card bg-dark shadow-sm border-0 px-2 py-3 mb-4">
+              <div class="text-center">
+                <img src="Houndour8bit.webp" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum odio provident quod quae delectus
+                  repudiandae, veniam ea laboriosam harum ducimus ipsum quas deleniti sapiente ipsa. Soluta, ipsa?
+                  Officia, minima pariatur?
+                </p>
+                <a href="#" class="btn btn-light">Saber mas</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-12 col-lg-4"><!-- Producto 4 -->
+            <div class="card bg-dark shadow-sm border-0 px-2 py-3 mb-4">
+              <div class="text-center">
+                <img src="Houndoom8bit.webp" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum odio provident quod quae delectus
+                  repudiandae, veniam ea laboriosam harum ducimus ipsum quas deleniti sapiente ipsa. Soluta, ipsa?
+                  Officia, minima pariatur?
+                </p>
+                <a href="#" class="btn btn-light">Saber mas</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-12 col-lg-4"><!-- Producto 5 -->
+            <div class="card bg-dark shadow-sm border-0 px-2 py-3 mb-4">
+              <div class="text-center">
+                <img src="Sneasel8bit.webp" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum odio provident quod quae delectus
+                  repudiandae, veniam ea laboriosam harum ducimus ipsum quas deleniti sapiente ipsa. Soluta, ipsa?
+                  Officia, minima pariatur?
+                </p>
+                <a href="#" class="btn btn-light">Saber mas</a>
+              </div>
+            </div>
+          </div>
+
+        <div class="col-12 col-md-12 col-lg-4"><!-- Producto 6 -->
+            <div class="card bg-dark shadow-sm border-0 px-2 py-3 mb-4">
+              <div class="text-center">
+                <img src="Tyranitar8bit.webp" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum odio provident quod quae delectus
+                  repudiandae, veniam ea laboriosam harum ducimus ipsum quas deleniti sapiente ipsa. Soluta, ipsa?
+                  Officia, minima pariatur?
+                </p>
+                <a href="#" class="btn btn-light">Saber mas</a>
+              </div>
+            </div>
+          </div>
+
+      </div>
+
+    </div>
+  </section><!--- Productos --->
+
+  <section class="services"><!--- Secciones de Ventas --->
+
+    <div class="container">
+      <div class="row">
+        <div class="row justify-content-center">
+          <div class="text-center">
+            <h2>Alfombras</h2>
+            <br>
+          </div>
+        </div>
+        <div class="rol-12 col-md-12 col-lg-4 mb-3">
+            <div class="card bg-dark text-center bg-car1 pb-2">
+              <div class="card-body">
+                <h3 class="card-title">Faros antiniebla</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ea eveniet exercitationem autem odit ut
+                  magnam vero vitae, vel suscipit cupiditate sequi, reiciendis culpa similique repellendus doloribus
+                  accusamus aperiam assumenda.
+                </p>
+                <button class="btn bg-primary text-white">Leer mas</button>
+              </div>
+            </div>
+        </div>
+
+        <div class="rol-12 col-md-12 col-lg-4 mb-3">
+            <div class="card bg-dark text-center bg-car1 pb-2">
+              <div class="card-body">
+                <h3 class="card-title">Faros antiniebla</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ea eveniet exercitationem autem odit ut
+                  magnam vero vitae, vel suscipit cupiditate sequi, reiciendis culpa similique repellendus doloribus
+                  accusamus aperiam assumenda.
+                </p>
+                <button class="btn bg-primary text-white">Leer mas</button>
+              </div>
+            </div>
+        </div>
+
+        <div class="rol-12 col-md-12 col-lg-4 mb-3">
+            <div class="card bg-dark text-center bg-car1 pb-2">
+              <div class="card-body">
+                <h3 class="card-title">Faros antiniebla</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ea eveniet exercitationem autem odit ut
+                  magnam vero vitae, vel suscipit cupiditate sequi, reiciendis culpa similique repellendus doloribus
+                  accusamus aperiam assumenda.
+                </p>
+                <button class="btn bg-primary text-white">Leer mas</button>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+  </section> <!--- Secciones de Ventas --->
+
+  <section class="section-icons"><!--- iconos de venta --->
+    <div class="container">
+      <div class="row">
+
+        <div class="col-12 col-md-12 col-lg-4 box-icons">
+          <div class="d-flex align-items-center">
+            <i class="bi bi-airplane"></i>
+            <div class="ms-4">
+              <h3>Envio gratis</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-12 col-lg-4 box-icons">
+          <div class="d-flex align-items-center">
+            <i class="bi bi-cash-coin"></i>
+            <div class="ms-4">
+              <h3>Rembolso</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-12 col-lg-4 box-icons">
+          <div class="d-flex align-items-center">
+            <i class="bi bi-gift-fill"></i>
+            <div class="ms-4">
+              <h3>Regalo</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section><!--- iconos de venta --->
+
+  <section class="product"><!--- Productos --->
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-header text-center pb-5">
+            <h2>Productos</h2>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              <br>Minima accusamus fugit illo ipsum? Voluptate
+              reiciendis inventore.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+
+        <div class="col-12 col-md-12 col-lg-3"><!-- Producto 1 -->
+            <div class="card bg-dark shadow-sm border-0 px-2 py-3 mb-4">
+              <div class="text-center">
+                <img src="Umbreon8bit.webp" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum odio provident quod quae delectus
+                  repudiandae, veniam ea laboriosam harum ducimus ipsum quas deleniti sapiente ipsa. Soluta, ipsa?
+                  Officia, minima pariatur?
+                </p>
+                <a href="#" class="btn btn-light">Saber mas</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-12 col-lg-3"><!-- Producto 2 -->
+            <div class="card bg-dark shadow-sm border-0 px-2 py-3 mb-4">
+              <div class="text-center">
+                <img src="Murkrow8bit.webp" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum odio provident quod quae delectus
+                  repudiandae, veniam ea laboriosam harum ducimus ipsum quas deleniti sapiente ipsa. Soluta, ipsa?
+                  Officia, minima pariatur?
+                </p>
+                <a href="#" class="btn btn-light">Saber mas</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-12 col-lg-3"><!-- Producto 3 -->
+            <div class="card bg-dark shadow-sm border-0 px-2 py-3 mb-4">
+              <div class="text-center">
+                <img src="Houndour8bit.webp" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum odio provident quod quae delectus
+                  repudiandae, veniam ea laboriosam harum ducimus ipsum quas deleniti sapiente ipsa. Soluta, ipsa?
+                  Officia, minima pariatur?
+                </p>
+                <a href="#" class="btn btn-light">Saber mas</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-12 col-lg-3"><!-- Producto 4 -->
+            <div class="card bg-dark shadow-sm border-0 px-2 py-3 mb-4">
+              <div class="text-center">
+                <img src="Houndoom8bit.webp" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum odio provident quod quae delectus
+                  repudiandae, veniam ea laboriosam harum ducimus ipsum quas deleniti sapiente ipsa. Soluta, ipsa?
+                  Officia, minima pariatur?
+                </p>
+                <a href="#" class="btn btn-light">Saber mas</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-12 col-lg-3"><!-- Producto 5 -->
+            <div class="card bg-dark shadow-sm border-0 px-2 py-3 mb-4">
+              <div class="text-center">
+                <img src="Sneasel8bit.webp" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum odio provident quod quae delectus
+                  repudiandae, veniam ea laboriosam harum ducimus ipsum quas deleniti sapiente ipsa. Soluta, ipsa?
+                  Officia, minima pariatur?
+                </p>
+                <a href="#" class="btn btn-light">Saber mas</a>
+              </div>
+            </div>
+          </div>
+
+        <div class="col-12 col-md-12 col-lg-3"><!-- Producto 6 -->
+            <div class="card bg-dark shadow-sm border-0 px-2 py-3 mb-4">
+              <div class="text-center">
+                <img src="Tyranitar8bit.webp" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum odio provident quod quae delectus
+                  repudiandae, veniam ea laboriosam harum ducimus ipsum quas deleniti sapiente ipsa. Soluta, ipsa?
+                  Officia, minima pariatur?
+                </p>
+                <a href="#" class="btn btn-light">Saber mas</a>
+              </div>
+            </div>
+          </div>
+
+        <div class="col-12 col-md-12 col-lg-3"><!-- Producto 7 -->
+            <div class="card bg-dark shadow-sm border-0 px-2 py-3 mb-4">
+              <div class="text-center">
+                <img src="Forretress8bit.webp" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum odio provident quod quae delectus
+                  repudiandae, veniam ea laboriosam harum ducimus ipsum quas deleniti sapiente ipsa. Soluta, ipsa?
+                  Officia, minima pariatur?
+                </p>
+                <a href="#" class="btn btn-light">Saber mas</a>
+              </div>
+            </div>
+          </div>
+
+        <div class="col-12 col-md-12 col-lg-3"><!-- Producto 8 -->
+            <div class="card bg-dark shadow-sm border-0 px-2 py-3 mb-4">
+              <div class="text-center">
+                <img src="Skarmory8bit.webp" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum odio provident quod quae delectus
+                  repudiandae, veniam ea laboriosam harum ducimus ipsum quas deleniti sapiente ipsa. Soluta, ipsa?
+                  Officia, minima pariatur?
+                </p>
+                <a href="#" class="btn btn-light">Saber mas</a>
+              </div>
+            </div>
+          </div>
+
+      </div>
+
+    </div>
+  </section><!--- Productos --->
+
+  <section class="banner"><!--- Icono --->
+    <div class="container mt-sm-5">
+    <div class="row ms-4 me-md-4 me-3">
+    <div calss="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h2>Las mejores Alfombras para tu piso</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            <br> Dolores cupiditate recusandae, magnam illum
+            necessitatibus nihil dolorum quaerat culpa repudiandae omnis quibusdam debitis, harum officia! Minus a quia
+            totam sint animi!
+          </p>
+          <div>
+            <img src="sin_icono.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </section><!--- Icono --->
+
+
+
+<footer class="bg-dark p-2 text-center"><!--- Mensaje extra --->
+  <div class="container">
+    <p class="text-white">Todos los derechos reservados</p>
+  </div>
+</footer><!--- Mensaje extra --->
+</body>
+
+</html>
